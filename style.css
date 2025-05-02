@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .grid div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .grid .selected {
+    border: 3px solid black;
+  }
+  
+  .keypad-keys {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .keypad-keys button {
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .menu button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+  }
